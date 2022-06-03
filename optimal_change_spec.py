@@ -13,3 +13,5 @@ print("5:", calc(98.76, 100) == "The optimal change for an item that costs $98.7
 print("6:", calc(0.29, 1) == "The optimal change for an item that costs $0.29 with an amount paid of $1 is 2 quarters, 2 dimes, and 1 penny.")
 print("7:", calc(4.55, 5) == "The optimal change for an item that costs $4.55 with an amount paid of $5 is 1 quarter, and 2 dimes.")
 print("8:", calc(4.99, 5) == "The optimal change for an item that costs $4.99 with an amount paid of $5 is 1 penny.")
+print("9:", calc(5, 5) == "No change due.")
+print("10:", calc(6, 5) == "You owe $1")
